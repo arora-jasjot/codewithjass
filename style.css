@@ -1,0 +1,182 @@
+body, html{
+	font-size: 1em;
+	margin: 0px;
+	padding: 0px;
+	user-select: none;
+}
+nav{
+	background: #161616;
+	border-bottom: 10px solid #FCD529;
+	margin-bottom: 1%;
+}
+.nav-link{
+	color: white;
+	margin-left: 10%;
+}
+.nav-link:hover{
+	color: #FFDF51;
+}
+.nav-item{
+	margin-left: 30px;
+}
+.row{
+	width: 100%;
+}
+#about{
+	padding:5% 10% 0% 10%;
+	margin: 0;
+	margin-bottom: 5%;
+}
+.headings{
+	font-size: 3em;
+	color: #4394FF;
+	font-weight: 600;
+	text-decoration: underline;
+}
+#about-text{
+	width: 70%;
+	font-style: italic;
+	text-align: center;
+}
+#image-slides{
+	margin-top: 5%;
+}
+#image-slides img{
+	width: 	100%;
+	height: auto;	
+}
+#skill-section{
+	margin-top: 1%;
+}
+#skills{
+	padding-left: 25%;
+}
+.progress-bars{
+	border: 1.5px solid black;
+	border-radius: 10px;
+	width: 75%;
+	height: 30px;
+	margin-top: 2%;
+}
+.prog{
+	background-color: #4394FF;
+	display: inline-block;
+	text-align: left;
+	margin: 0px;
+	border-radius: 8.5px;
+	padding-left: 3%;
+	color: white;
+}
+.percentage{
+	display: inline-block;
+	text-align: right;
+	margin: 0px;
+	padding-right: 3%
+}
+.subheadings{
+	text-align: center;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 2em;
+	text-decoration: underline;
+	margin-bottom: 3%;
+}
+#portfolio{
+	padding:5% 10% 5% 10%;
+	margin: 0;
+	margin-bottom: 5%;
+	background: #F7F7F7;
+}
+.projectcard{
+	padding: 2%;
+}
+.project{
+	background-color: #FF4C6F;
+	border: 1px solid black;
+	text-align: center;
+}
+.project img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1%;
+	border-bottom: 2px solid #FCD529;
+}
+.proj-heading{
+	font-size: 2.5em;
+	text-decoration: underline;
+	color: #FFFCA0;
+}
+.techs{
+	font-style: italic;
+	margin-bottom: 1%;
+	color: white;
+}
+#blogs{
+	padding:5% 10% 0% 10%;
+	margin: 0;
+	margin-bottom: 5%;
+}
+.blogcard{
+	padding: 2%;
+}
+.blog{
+	background-color: #FFFCA0;
+	border: 1px solid black;
+	text-align: center;
+}
+.blog img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1%;
+	border-bottom: 2px solid blue;
+}
+.blog-heading{
+	font-size: 2.5em;
+	text-decoration: underline;
+	color: #FF4C6F;
+}
+.blog-desc{
+	font-style: italic;
+	margin-bottom: 1%;
+	color: black;
+}
+#contact{
+	border-top: 10px solid #FCD529;
+	background: #161616;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+#contact .headings{
+	color: white;
+	font-style: italic;
+	margin-bottom: 3%; 
+}
+.textfields{
+	background: none;
+	border-radius: 10px;
+	padding: 0.3% 0.3% 0.3% 0.7%;
+	color: white;
+	width: 400px;
+	border: 1px solid #FFDF51;
+}
+@media screen and (max-width: 450px) {
+	.textfields{
+		width: 90%;
+	}
+}
+form{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+#links{
+	margin-bottom: 2%;
+	font-size: 2.5em;
+}
+.fab{
+	margin: 0% 0.7% 0% 0.7%;
+	color: white !important;
+}
+.fab:hover{
+	color: #FFDF51 !important; 
+}
